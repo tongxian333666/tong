@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+        }
+        div{
+            width: 700px;
+            height:200px;
+            border:1px solid white;
+            margin:100px auto;
+            background-color: rgb(255, 255, 255,0.5);
+            border-radius: 20px;
+            line-height: 200px;
+        }
+        form{
+            text-align: center;
+        }
+        #keyword{
+            height: 36px;
+            width: 400px;
+            border-radius: 30px;
+            border: 1px solid white;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding-left:17px;
+            outline: none;
+        }
+        #btn{
+            width: 80px;
+            height: 35px;
+            border: 1px solid white;
+            border-radius: 35px;
+            outline: none;
+            margin:0 20px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="https://www.google.ca/search">
+            <input type="text" name="q" id="keyword" placeholder="Enter and search ...">
+            <input type="submit" value="Search" id="btn">
+        </form>
+    </div>
+</body>
+</html>
